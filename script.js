@@ -1,8 +1,6 @@
 $(function() {
     var url = 'https://restcountries.eu/rest/v1/name/';
-    var capital = 'https://restcountries.eu/rest/v1/capital/'
     var countriesList = $('#countries');
-    
     
     function searchCountries() {
         var countryName = $('#country-name').val();
